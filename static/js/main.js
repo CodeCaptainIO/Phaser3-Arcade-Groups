@@ -10,6 +10,7 @@ class SpaceScene extends Phaser.Scene
 	}
 
 	create() {
+		this.cameras.main.setBackgroundColor(0x1D1923);
 	}
 
 	update() {
