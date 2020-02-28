@@ -11,6 +11,14 @@ class SpaceScene extends Phaser.Scene
 
 	create() {
 		this.cameras.main.setBackgroundColor(0x1D1923);
+
+		this.addShip();
+	}
+
+	addShip() {
+		const centerX = this.cameras.main.width / 2;
+		const bottom = this.cameras.main.height;
+		this.ship = this.add.image(centerX, bottom - 90, 'ship');
 	}
 
 	update() {
