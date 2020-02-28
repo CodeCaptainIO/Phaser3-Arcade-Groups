@@ -2,7 +2,7 @@
 
 Blogpost: https://www.codecaptain.io/blog/game-development/shooting-bullets-using-phaser-groups/518
 
-This demo shows how to work with groups in PhaserJS.
+This demo shows how to work with Arcade Physics groups in Phaser 3.
 
 # Features
 
